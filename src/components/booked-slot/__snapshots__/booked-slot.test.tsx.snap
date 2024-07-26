@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookedSlot component matches the snapshot 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#d1ecf1",
+        "borderLeftColor": "#00ff00",
+        "borderLeftWidth": 3,
+        "borderRadius": 3,
+        "flex": 1,
+        "height": 50,
+        "padding": 7,
+      },
+      {
+        "borderLeftColor": undefined,
+      },
+    ]
+  }
+  testID="bookedSlotID"
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#00ff00",
+          "fontSize": 16,
+          "fontWeight": "600",
+        },
+        {
+          "color": undefined,
+        },
+      ]
+    }
+  >
+    Slot booked
+  </Text>
+</View>
+`;

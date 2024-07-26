@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookSlot component matches the snapshot 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#f8f9fa",
+      "borderColor": "#bcbcbc",
+      "borderRadius": 5,
+      "borderWidth": 0.2,
+      "flex": 1,
+      "flexDirection": "row",
+      "height": 45,
+      "opacity": 1,
+      "padding": 10,
+      "width": "100%",
+    }
+  }
+  testID="book-slot-buttonID"
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#007BFF",
+        "height": 20,
+        "width": 20,
+      }
+    }
+  />
+  <Text
+    style={
+      {
+        "color": "#007BFF",
+        "fontSize": 14,
+        "fontWeight": "600",
+        "marginLeft": 5,
+      }
+    }
+    testID="book-slot-textID"
+  >
+    Book slot
+  </Text>
+</View>
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SectionHeader matches the snapshot 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "elevation": 2,
+      "height": 40,
+      "justifyContent": "center",
+      "marginBottom": 10,
+      "paddingHorizontal": 10,
+      "shadowColor": "black",
+      "shadowOffset": {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.2,
+      "shadowRadius": 3,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#999999",
+        "fontSize": 16,
+        "fontWeight": "500",
+      }
+    }
+  >
+    Section Title
+  </Text>
+</View>
+`;
